@@ -3,19 +3,22 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 .info{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 650px;
     display: flex;
 }
 .info_items{
-    border: blue 2px solid;
+    /* border: blue 2px solid; */
     width: 50%;
     padding: 20px;
     margin-left: 80px;
 }
 .info_items_flex{
     margin-top: 150px;
+}
+.info_items p{
+    font-weight: 600;
 }
 #vertical_line{
     width: 5px;
@@ -28,7 +31,7 @@ body{
 
 #Mission h1{
     margin: 5px;
-    border: steelblue 1px solid;
+    /* border: steelblue 1px solid; */
     font-size: 70px;
     text-transform: capitalize;
 }
@@ -47,7 +50,13 @@ body{
     margin-top: 100px;
     width: 421px;
     height: 450px;
-    border: springgreen 2px solid;
+    /* border: springgreen 2px solid; */
+    
+}
+#info_items_image{
+    background-image: url(./images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 600px 650px;
 }
 
 button{
@@ -65,41 +74,74 @@ button:hover{
 }
 
 
-/* contianer design start*/
+/* contianer 2nd part design start*/
  
 .contianer_02{
     width: 100%;
-    height: 650px;
+    height: 750px;
     border: 2px solid black;
-    background-color: rgb(236, 138, 138);
+    background-color: rgba(243, 142, 142, 0.301);
 }
 
 .contianer_02 h1{
     text-align: center;
     margin: 50px 0px;
-    border: 2px solid black;
     font-size: 60px;
     text-transform: capitalize;
 }
-
+h2{
+    text-transform: capitalize;
+}
 .contianer_flex{
     display: flex;
-    width: 100%;
     justify-content:center;
-    border: rgb(55, 221, 138) 2px solid;
+    /* border: rgb(55, 221, 138) 2px solid; */
     padding: 50px;
 }
 
 .flex_items{
-    margin: 0px 5px;
+    margin: 0px 15px;
     width: 20%;
-    border: tan solid 2px;
     border-radius: 10px;
+    padding: 15px;
+    box-shadow: 1px 5px 20px black;
+
 }
 .flex_items img{
     width: 100%;
-    height: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+}
+
+#goal{
+    background-color: rgba(255, 182, 193, 0.267);
+}
+#goal:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgba(247, 168, 180, 0.904);
+
+}
+#vission{
+    background-color: rgba(144, 238, 144, 0.534);
+}
+#vission:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(120, 204, 120);
+
+}
+#mission{
+    background-color: lightyellow;
+}
+#mission:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(247, 247, 160);
+
 }
 
 /* contianer -02 desing end */
@@ -111,28 +153,38 @@ button:hover{
 .contianer_03{
     width: 100%;
     height: 1150px;
-    border: cadetblue 2px solid;
+    margin-top: 40px;
 }
 
 .row{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: black 2px solid;
-    margin: 40px 0px;
     padding: 60px 0px;
+}
+#row-01{
+    background-image: url(./images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+#row-02{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    background-position: top right;
+    margin: 40px 0px;
 }
 
 .row img{
     width: 400px;
     height: 350px;
-    border: springgreen 2px solid;
+    /* border: springgreen 2px solid; */
     margin: 20px;
 }
 .text{
     width: 40%;
     height: 350px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px 30px;
 }
 .text h1{
@@ -146,14 +198,20 @@ button:hover{
 .text2{
     text-align: right;
 }
+
+
 /* container 04 desgin start  */
 
 
 .contianer_04{
-    border: red 2px solid;
+    background-color: rgba(250, 250, 210, 0.164);
     margin: 20px 0px;
     display: flex;
     justify-content: space-evenly;
+    background-image: url(./images/shapes/shape-2.png), url(./images/shapes/shape-4.png);
+    background-repeat: no-repeat no-repeat;
+    background-size:360px 340px, 450px 420px;
+    background-position: bottom left, bottom left;
 }
 
 .address{
@@ -183,7 +241,7 @@ button:hover{
 
 footer{
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.795);
     padding: 20px;
     text-align: center;
 }
