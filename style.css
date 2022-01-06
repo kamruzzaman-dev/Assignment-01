@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins&family=Roboto+Slab&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 
 body{
     margin: 0;
@@ -90,6 +93,8 @@ button:hover{
     margin: 50px 0px;
     font-size: 60px;
     text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+
 }
 h2{
     text-transform: capitalize;
@@ -100,7 +105,9 @@ h2{
     /* border: rgb(55, 221, 138) 2px solid; */
     padding: 50px;
 }
-
+.contianer_flex p{
+    text-align: justify;
+}
 .flex_items{
     margin: 0px 15px;
     width: 20%;
@@ -207,13 +214,6 @@ h2{
 .contact{
     width: 100%;
     background-color: rgba(250, 250, 210, 0.164);
-
-    font-family: 'Comforter Brush', cursive;
-
-    font-family: 'Poppins', sans-serif;
-
-    font-family: 'Roboto Slab', serif;
-
     font-family: 'Shadows Into Light', cursive;
 }
 .contact h1{
@@ -262,4 +262,5 @@ footer{
     background-color: rgba(0, 0, 0, 0.795);
     padding: 20px;
     text-align: center;
+    font-family: 'Lobster', cursive;
 }
