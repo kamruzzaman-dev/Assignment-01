@@ -86,7 +86,7 @@ button:hover{
     display: flex;
     width: 100%;
     justify-content:center;
-    border: blue 2px solid;
+    border: rgb(55, 221, 138) 2px solid;
     padding: 50px;
 }
 
@@ -104,3 +104,47 @@ button:hover{
 
 /* contianer -02 desing end */
 
+
+
+/* contianer -03 desing start */
+
+.contianer_03{
+    width: 100%;
+    height: 1400px;
+    border: cadetblue 2px solid;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    margin: 40px 0px;
+    padding: 60px 0px;
+}
+
+.row img{
+    width: 400px;
+    height: 350px;
+    border: springgreen 2px solid;
+    margin: 20px;
+}
+.text{
+    width: 40%;
+    height: 350px;
+    border: 2px solid blue;
+    padding: 10px 30px;
+}
+.text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.text p{
+    margin-bottom: 20px;
+}
+
+
+.text2{
+    text-align: right;
+}
+/* container 04 desgin start  */
