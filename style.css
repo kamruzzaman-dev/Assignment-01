@@ -79,7 +79,7 @@ button:hover{
 .contianer_02{
     width: 100%;
     height: 750px;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.068);
     background-color: rgba(243, 142, 142, 0.301);
 }
 
@@ -233,7 +233,7 @@ h2{
     height: 200px;
     margin: 15px 10px;
     padding-top: 10px;
-    
+
 }
 #submit{
     margin: 15px 10px;
